@@ -1,12 +1,15 @@
 // import logo from "./logo.svg";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
+import Home from "./views/Home";
+import Profile from "./views/Profile";
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<h1>Soleh</h1>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </>
   );
