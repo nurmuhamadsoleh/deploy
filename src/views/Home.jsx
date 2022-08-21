@@ -6,6 +6,7 @@ function Home() {
     <div>
       <h1>Nur Muhamad Soleh | Home</h1>
       <Link to={"/profile"}>Profile</Link>
+      <Link to={"/navbar"}>Navbar</Link>
     </div>
   );
 }
