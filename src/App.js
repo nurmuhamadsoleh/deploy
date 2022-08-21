@@ -1,10 +1,13 @@
 // import logo from "./logo.svg";
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <h1>Hallo Nur Muhamad Soleh Front End</h1>
+      <Routes>
+        <Route path="/" element={<h1>Soleh</h1>} />
+      </Routes>
     </>
   );
 }
